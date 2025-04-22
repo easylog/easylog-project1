@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import clientPromise from '@/lib/mongodb';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
